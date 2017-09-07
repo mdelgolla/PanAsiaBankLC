@@ -80,7 +80,7 @@ public class PABNewCustLoanActivity extends AppCompatActivity implements View.On
 
         awesomeValidation.addValidation(this, R.id.et_full_name, "^[A-Za-z\\s]{1,}[\\.]{0,1}[A-Za-z\\s]{0,}$", R.string.enter_name);
         awesomeValidation.addValidation(this, R.id.et_address, RegexTemplate.NOT_EMPTY, R.string.enter_addres);
-        awesomeValidation.addValidation(this, R.id.et_nic_number, "^[0-9]{9,12}[V,X]?$", R.string.enter_nic);
+        awesomeValidation.addValidation(this, R.id.et_nic_number, "(^[0-9]{9}[V,X,v,x])|(^[0-9]{12})", R.string.enter_nic);
         awesomeValidation.addValidation(this, R.id.et_mobile, "^[+]?[0-9]{10}$", R.string.enter_mobile);
         awesomeValidation.addValidation(this, R.id.et_home_tel, "^[+]?[0-9]{10}$", R.string.enter_hometel);
         awesomeValidation.addValidation(this, R.id.et_office_tel, "^[+]?[0-9]{10}$", R.string.enter_officetel);
