@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_menu_bg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            layout="@layout/pab_title_bar_view"></include>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/sp_screen_height_20">
+
+        <Button
+            android:id="@+id/btn_cust_onboard"
+            style="@style/screen_text_2_clr_white"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_margin="@dimen/sp_screen_height_10"
+            android:background="@drawable/customer_on_board_btn"
+            android:padding="@dimen/sp_screen_height_10"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btn_account_opening"
+            style="@style/screen_text_2_clr_white"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_margin="@dimen/sp_screen_height_10"
+            android:background="@drawable/account_opening_btn"
+            android:padding="@dimen/sp_screen_height_10"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btn_loan_application"
+            style="@style/screen_text_2_clr_white"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:layout_margin="@dimen/sp_screen_height_10"
+            android:background="@drawable/loan_applicatio_btn"
+            android:padding="@dimen/sp_screen_height_10"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

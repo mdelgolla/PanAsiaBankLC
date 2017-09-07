@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            layout="@layout/pab_title_bar_view"></include>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/btn_app_existing_cust"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sp_screen_height_50"
+            android:layout_margin="@dimen/sp_screen_height_10"
+            android:background="@drawable/button"
+            android:padding="@dimen/sp_screen_height_10"
+            style="@style/screen_text_2_clr_white"
+            android:text="@string/existing_cust"
+            />
+        <Button
+            android:id="@+id/btn_app_new_cust"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sp_screen_height_50"
+            android:layout_margin="@dimen/sp_screen_height_10"
+            android:background="@drawable/button"
+            android:padding="@dimen/sp_screen_height_10"
+            style="@style/screen_text_2_clr_white"
+            android:text="@string/new_cust"/>
+    </LinearLayout>
+
+</LinearLayout>

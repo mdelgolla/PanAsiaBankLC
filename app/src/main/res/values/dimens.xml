@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--screen heights-->
+    <dimen name="sp_screen_height_50">50dp</dimen>
+    <dimen name="sp_screen_height_60">60dp</dimen>
+    <dimen name="sp_screen_height_42">42dp</dimen>
+    <dimen name="sp_screen_height_45">45dp</dimen>
+    <dimen name="sp_screen_height_10">10dp</dimen>
+    <dimen name="sp_screen_height_20">20dp</dimen>
+    <dimen name="sp_screen_height_3">3dp</dimen>
+    <dimen name="sp_screen_height_2">2dp</dimen>
+    <dimen name="sp_screen_height_5">5dp</dimen>
+    <dimen name="sp_screen_height_200">200dp</dimen>
+
+    <!--Text Sizes-->
+    <dimen name="sp_screen_height_21">21dp</dimen>
+    <dimen name="sp_screen_height_14">14dp</dimen>
+    <dimen name="sp_screen_height_18">18dp</dimen>
+
+    <dimen name="sp_screen_hight_25">25dp</dimen>
+
+
+</resources>

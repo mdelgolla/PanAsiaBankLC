@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="screen_text_1_clr_white">
+        <item name="android:textColor">@color/clr_white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/sp_screen_height_21</item>
+    </style>
+    <style name="screen_text_2_clr_white">
+        <item name="android:textColor">@color/clr_white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/sp_screen_height_18</item>
+    </style>
+    <style name="screen_text_2_clr_black">
+        <item name="android:textColor">@color/clr_black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/sp_screen_height_14</item>
+    </style>
+    <style name="screen_text_2_clr_maroon">
+        <item name="android:textColor">@color/clr_red</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/sp_screen_height_14</item>
+    </style>
+
+
+</resources>

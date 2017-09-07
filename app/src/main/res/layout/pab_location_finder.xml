@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/clr_red">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/btn_get_location"
+        style="@style/screen_text_2_clr_white"/>
+    <ImageView
+        android:layout_width="@dimen/sp_screen_height_45"
+        android:layout_height="@dimen/sp_screen_height_45"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/sp_screen_height_20"
+        android:src="@drawable/marker"/>
+    <TextView
+        android:id="@+id/tv_latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/sp_screen_height_10"
+        style="@style/screen_text_2_clr_white"/>
+    <TextView
+        android:id="@+id/tv_longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/sp_screen_height_10"
+        style="@style/screen_text_2_clr_white"/>
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"/>
+
+</LinearLayout>

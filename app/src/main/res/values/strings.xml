@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name">PanAsiaBank</string>
+    <string name="loan_calculator">LOAN CALCULATOR</string>
+    <!--Login Screen-->
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="password_forget">Forget your Password?</string>
+    <string name="login_fail">Login fail</string>
+    <string name="enter_password">Enter password.</string>
+    <string name="sign_out">Sign Out</string>
+
+    <!--Main Menu-->
+    <string name="customer_on_board">CUSTOMER ON-BOARD</string>
+    <string name="account_opening">ACCOUNT OPENING</string>
+    <string name="loan_application">LOAN APPLICATION</string>
+
+    <!--Laon Application-->
+    <string name="existing_cust">Existing Customer</string>
+    <string name="new_cust">New Customer</string>
+
+    <!--Register user-->
+    <string name="man_fields">*</string>
+    <string name="mr">Mr</string>
+    <string name="mrs">Mrs</string>
+    <string name="miss">Miss</string>
+    <string name="rev">Rev</string>
+    <string name="personal_info">Personal Information</string>
+    <string name="title">Title</string>
+    <string name="name">Full Name</string>
+    <string name="address">Postal Address</string>
+    <string name="nic">NIC Number</string>
+    <string name="married_status">Married Status</string>
+    <string name="married">Married</string>
+    <string name="single">Single</string>
+    <string name="numof_dependencies">Number of Dependancies</string>
+    <string name="emp_details">Employement Details</string>
+    <string name="comp_employed">Company Employed</string>
+    <string name="designation">Designation</string>
+    <string name="work_experience">Work Experience</string>
+    <string name="con_in_emp">Confirmed In Employement</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="sal_details">Salary Details</string>
+    <string name="basic_sal">Basic Salary</string>
+    <string name="fixed_allowance">Fixed Allowance</string>
+    <string name="sal_deductions">Salary Deductions</string>
+    <string name="net_sal">Net Salary</string>
+    <string name="other_loan_instal">Other Loan Installments</string>
+    <string name="loan_details">Loan Details</string>
+    <string name="btnUploadToServer">Upload Image To Server</string>
+    <string name="rep_payment">Repayment Period</string>
+    <string name="loan_type">LoanType</string>
+    <string name="contact_details">Contact Details</string>
+    <string name="office_tel">Office Tel</string>
+    <string name="home_tel">Home Tel</string>
+    <string name="mobile">Mobile</string>
+    <string name="email">E-mail Address</string>
+    <string name="pref_contact">Prefered Mode Of Contact</string>
+    <string name="bill_proof">Salary Slip Proof</string>
+    <string name="registeredby">Registered By</string>
+    <string name="create_date">Loan Apply Date</string>
+    <string name="update_date">Loan Last Updated</string>
+
+    <!--Account Details-->
+    <string name="account_id">Account Number</string>
+    <string name="created_at">Account Created Date</string>
+    <string name="last_update">Last Update</string>
+    <string name="acc_balance">Account Balance</string>
+    <string name="customer_snap">Customer Photograph</string>
+
+    <!--Progress messages-->
+    <string name="logging_success">Logging Success</string>
+    <string name="logging_messge">You are successfully logged into Loan Calculator</string>
+    <string name="loading_message">Loading.....</string>
+    <string name="loan_submit">Loan Application Submiting....</string>
+    <string name="loan_detail">Loading Loan Details</string>
+    <string name="login_user">login user.</string>
+    <string name="login_user_msg">Logging.....</string>
+    <string name="please_try_again">please try again.</string>
+    <string name="account_submit">Create New Account</string>
+    <string name="account_submit_msg">Submitting Account Details...</string>
+    <string name="form_submit">Loan Application</string>
+    <string name="form_sumbit_msg">You Have Succssfully Submitd The Loan Application</string>
+
+    <string name="location_acquiring">Location</string>
+    <string name="location_msg">Location Acquering....</string>
+    <!--Error messages-->
+    <string name="network_error">Network Error</string>
+    <string name="network_error_msg">Please Check Your Network Connection</string>
+    <string name="no_result">No Result Found</string>
+    <string name="try_again">Please Try Again</string>
+    <!--loan application error messages-->
+    <string name="register_fail">Register Fail</string>
+    <string name="enter_name">Enter Valid Full Name</string>
+    <string name="enter_addres">Enter Address</string>
+    <string name="enter_nic">Enter Valid NIC</string>
+    <string name="enter_officetel">Enter Valid Office Contact Number</string>
+    <string name="enter_hometel">Enter Valid Contact Numbre</string>
+    <string name="enter_mobile">Enter Valid Mobile Number</string>
+    <string name="enter_email">Enter Valid Email</string>
+    <string name="enter_compay">Enter Company</string>
+    <string name="enter_designation">Enter Designation</string>
+    <string name="enter_workexperience">Enter Work Experience</string>
+
+    <string name="enter_basicsalary">Please Enter Your Basic Salary</string>
+    <string name="enter_fiixedallowance">Pleace Enter Your Fixed allowance</string>
+    <string name="enter_salary_deductions">Please Enter Your Salary Deducions</string>
+    <!--Account opening error messages-->
+    <string name="account_register">Account Register Fail</string>
+    <string name="account_no">Please Enter Valid Accunt Number</string>
+
+    <!--Existing Customer Loan Details-->
+    <string name="loan_id">Loan ID</string>
+    <!--Google location finder-->
+    <string name="lbl_you_are_at">YOU ARE AT</string>
+    <string name="btn_get_location">GET LOCATION LATITUDE AND LONGITUDE</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+
+    <!--Dependancies Array-->
+    <string-array name="dependancies">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+    <!--Loan Calculator-->
+    <string name="loan_amount">Loan Amount : </string>
+    <string name="interest_rate">Interest Rate :</string>
+    <string name="interest">15% p.a </string>
+    <string name="loan_period">Loan Period :</string>
+    <string name="email_results">EMAIL ME RESULTS</string>
+    <string name="monthly_payment">Monthly Payment</string>
+
+    <!--Account type array-->
+    <string-array name="acc_type">
+        <item>Savings Account</item>
+        <item>Current Account</item>
+        <item>Fixed Deposits</item>
+    </string-array>
+    <string name="acc_type">Account Type</string>
+    <!--Mode of contact array-->
+    <string-array name="mode_contact">
+        <item>Home Tel</item>
+        <item>Office Tel</item>
+        <item>Mobile</item>
+        <item>E-mail</item>
+        <item>Letter</item>
+    </string-array>
+    <string-array name="loan_type">
+        <item>Home Loan</item>
+        <item>Personal Loan</item>
+        <item>Small Business Loan</item>
+        <item>Payable Loan</item>
+    </string-array>
+</resources>
+

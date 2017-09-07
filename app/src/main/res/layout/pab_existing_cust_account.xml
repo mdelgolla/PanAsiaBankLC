@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            layout="@layout/pab_title_bar_view"></include>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/sp_screen_height_10"
+            android:layout_marginRight="@dimen/sp_screen_height_10"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/screen_text_2_clr_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/sp_screen_height_10"
+                    android:text="@string/account_id" />
+
+                <TextView
+                    style="@style/screen_text_2_clr_maroon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/man_fields" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_account_no"
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textfield"
+                android:padding="@dimen/sp_screen_height_10" />
+            <Button
+                android:id="@+id/btn_account_details"
+                style="@style/screen_text_2_clr_white"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sp_screen_height_50"
+                android:layout_marginBottom="@dimen/sp_screen_height_10"
+                android:layout_marginTop="@dimen/sp_screen_height_10"
+                android:background="@drawable/button"
+                android:text="SUBMIT"
+                android:layout_gravity="bottom"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <ListView
+                            android:id="@+id/list_account"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

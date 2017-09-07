@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#970707</color>
+    <color name="colorPrimaryDark">#f44236</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="clr_maroon">#970707</color>
+    <color name="clr_red_bot">#f44236</color>
+    <color name="clr_red_top">#d60000</color>
+    <color name="clr_red">#d31119</color>
+    <color name="clr_white">#fff</color>
+    <color name="clr_black">#000</color>
+
+    <!--location finder-->
+    <color name="view_bg">#b20e0f</color>
+    <color name="btn_bg">#3e4a56</color>
+
+    <color name="clr_ash_a">#bcbaba</color>
+</resources>

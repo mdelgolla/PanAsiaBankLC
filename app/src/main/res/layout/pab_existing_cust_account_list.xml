@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/sp_screen_height_20">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="@dimen/sp_screen_height_10"
+                android:background="@android:color/darker_gray" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sp_screen_height_20"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_personal_info"
+                    style="@style/screen_text_2_clr_maroon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="@dimen/sp_screen_height_10"
+                    android:text="@string/personal_info" />
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="@dimen/sp_screen_height_10"
+                android:background="@android:color/darker_gray" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sp_screen_height_20">
+
+                <TextView
+                    style="@style/screen_text_2_clr_black"
+                    android:layout_width="@dimen/sp_screen_height_200"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/sp_screen_height_10"
+                    android:text="Full Name" />
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    style="@style/screen_text_2_clr_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/sp_screen_height_10" />
+
+                <TextView
+                    android:id="@+id/tv_accfullname"
+                    style="@style/screen_text_2_clr_black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/sp_screen_height_10" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sp_screen_height_20">
+
+                <TextView
+                    style="@style/screen_text_2_clr_black"
+                    android:layout_width="@dimen/sp_screen_height_200"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/sp_screen_height_10"
+                    android:text="@string/address" />
+
+                <TextView
+                    android:id="@+id/tv_accaddress"
+                    style="@style/screen_text_2_clr_black"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/sp_screen_height_10" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sp_screen_height_20">
+
+                <TextView
+                    style="@style/screen_text_2_clr_black"
+                    android:layout_width="@dimen/sp_screen_height_200"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/sp_screen_height_10"
+                    android:text="@string/nic" />
+
+                <TextView
+                    android:id="@+id/tv_accnicno"
+                    style="@style/screen_text_2_clr_black"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/sp_screen_height_10" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sp_screen_height_20">
+
+                <TextView
+                    style="@style/screen_text_2_clr_black"
+                    android:layout_width="@dimen/sp_screen_height_200"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/sp_screen_height_10"
+                    android:text="@string/acc_type" />
+
+                <TextView
+                    android:id="@+id/tv_acctype"
+                    style="@style/screen_text_2_clr_black"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/sp_screen_height_10" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sp_screen_height_20">
+
+                <TextView
+                    style="@style/screen_text_2_clr_black"
+                    android:layout_width="@dimen/sp_screen_height_200"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/sp_screen_height_10"
+                    android:text="@string/acc_balance" />
+
+                <TextView
+                    android:id="@+id/tv_accbalance"
+                    style="@style/screen_text_2_clr_black"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/sp_screen_height_10" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sp_screen_height_20">
+
+                <TextView
+                    style="@style/screen_text_2_clr_black"
+                    android:layout_width="@dimen/sp_screen_height_200"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/sp_screen_height_10"
+                    android:text="@string/created_at" />
+
+                <TextView
+                    android:id="@+id/tv_acc_createdat"
+                    style="@style/screen_text_2_clr_black"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/sp_screen_height_10" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sp_screen_height_20">
+
+                <TextView
+                    style="@style/screen_text_2_clr_black"
+                    android:layout_width="@dimen/sp_screen_height_200"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/sp_screen_height_10"
+                    android:text="@string/last_update" />
+
+                <TextView
+                    android:id="@+id/tv_acc_updatedat"
+                    style="@style/screen_text_2_clr_black"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/sp_screen_height_10" />
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="@dimen/sp_screen_height_10"
+                android:background="@android:color/darker_gray" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sp_screen_height_20"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_contact_info"
+                    style="@style/screen_text_2_clr_maroon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:padding="@dimen/sp_screen_height_10"
+                    android:text="@string/contact_details" />
+            </TableRow>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="@dimen/sp_screen_height_10"
+                android:background="@android:color/darker_gray" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sp_screen_height_20">
+
+                <TextView
+                    style="@style/screen_text_2_clr_black"
+                    android:layout_width="@dimen/sp_screen_height_200"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/sp_screen_height_10"
+                    android:text="@string/mobile" />
+
+                <TextView
+                    android:id="@+id/tv_acc_mobile"
+                    style="@style/screen_text_2_clr_black"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/sp_screen_height_10" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sp_screen_height_20">
+
+                <TextView
+                    style="@style/screen_text_2_clr_black"
+                    android:layout_width="@dimen/sp_screen_height_200"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/sp_screen_height_10"
+                    android:text="@string/home_tel" />
+
+                <TextView
+                    android:id="@+id/tv_acc_hometel"
+                    style="@style/screen_text_2_clr_black"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/sp_screen_height_10" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sp_screen_height_20">
+
+                <TextView
+                    style="@style/screen_text_2_clr_black"
+                    android:layout_width="@dimen/sp_screen_height_200"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/sp_screen_height_10"
+                    android:text="@string/office_tel" />
+
+                <TextView
+                    android:id="@+id/tv_acc_officetel"
+                    style="@style/screen_text_2_clr_black"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/sp_screen_height_10" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sp_screen_height_20">
+
+                <TextView
+                    style="@style/screen_text_2_clr_black"
+                    android:layout_width="@dimen/sp_screen_height_200"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/sp_screen_height_10"
+                    android:text="@string/email" />
+
+                <TextView
+                    android:id="@+id/tv_acc_email"
+                    style="@style/screen_text_2_clr_black"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/sp_screen_height_10" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sp_screen_height_20">
+
+                <TextView
+                    style="@style/screen_text_2_clr_black"
+                    android:layout_width="@dimen/sp_screen_height_200"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/sp_screen_height_10"
+                    android:text="@string/pref_contact" />
+
+                <TextView
+                    android:id="@+id/tv_acc_modeofcontact"
+                    style="@style/screen_text_2_clr_black"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/sp_screen_height_10" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>
